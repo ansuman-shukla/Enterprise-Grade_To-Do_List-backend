@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 100%; /* Ensure the app container takes full width */
 }
 
 /* Header Styles */
@@ -100,13 +101,13 @@ body {
 /* Main Content */
 .app-main {
   flex: 1;
-  padding: 2rem 0;
+  padding: 2rem 0; /* Keep vertical padding, horizontal is handled by children or not at all */
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  width: 100%; /* Ensure container takes full width of app-main */
+  margin: 0; /* Remove horizontal auto margins */
+  padding: 0; /* Remove horizontal padding to allow content blocks to be edge-to-edge */
 }
 
 /* Task Input Form */

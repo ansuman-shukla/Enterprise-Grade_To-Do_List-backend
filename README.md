@@ -122,6 +122,16 @@ Enterprise-Grade_To-Do_List/
 - `PUT /api/tasks/{task_id}` - Update a task
 - `DELETE /api/tasks/{task_id}` - Delete a task
 
+## Application Screenshots
+
+Here are some screenshots of the application in action:
+
+**Image 1:**
+![Image 1](./imgs/image.png)
+
+**Image 2:**
+![Image 2](./imgs/image2.png)
+
 ## Usage Examples
 
 ### Natural Language Input Examples:
