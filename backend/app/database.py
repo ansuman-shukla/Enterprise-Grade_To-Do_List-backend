@@ -20,7 +20,7 @@ async def get_database():
 
 
 async def connect_to_mongo():
-    """Create database connection"""
+    """Create database connection."""
     try:
         mongodb_uri = os.getenv("MONGODB_URI")
         if not mongodb_uri:
